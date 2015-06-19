@@ -12,7 +12,7 @@ if [ "$CLIENT" = "JS" ]; then
         exit 1
     fi
 
-    npm install # installs deps and runs tests.
+    npm install --ignore-scripts # installs deps and runs tests.
 
 elif [ "$CLIENT" = "PY" ]; then
 
